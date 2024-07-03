@@ -3,6 +3,8 @@
 <?php
 // Include database connection
 require_once '../config/database.php';
+include '../src/navbar.php';
+
 
 // Initialize variables
 $correctAnswers = 0;

@@ -1,9 +1,14 @@
 <?php
 // Include database connection
 include '../config/database.php';
+include '../src/navbar.php';
+
 
 // Start session
-session_start();
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+
 
 // Check if user is logged in
 if (!isset($_SESSION['username'])) {
