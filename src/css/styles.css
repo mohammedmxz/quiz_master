@@ -1,0 +1,9 @@
+/* public/css/styles.css */
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form input, form button {
+    margin-top: 10px;
+}
